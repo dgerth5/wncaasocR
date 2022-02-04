@@ -1,6 +1,6 @@
-library(rvest)
-
 goal_table <- function(year){
+  
+  require(rvest)
   
   url <- paste0("http://wosoindependent.com/college/", year, "/?game&recs")
   webpage <- read_html(url)
