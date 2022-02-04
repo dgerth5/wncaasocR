@@ -10,7 +10,8 @@
 #'  }
 #' }
 #' @rdname goal_table
-#' @export 
+#' @export goal_table
+
 goal_table <- function(year){
   
   url <- paste0("http://wosoindependent.com/college/", year, "/?game&recs")
