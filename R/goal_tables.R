@@ -13,12 +13,10 @@
 #' @export 
 goal_table <- function(year){
   
-  require(rvest)
-  
   url <- paste0("http://wosoindependent.com/college/", year, "/?game&recs")
-  webpage <- read_html(url)
+  webpage <- rvest::read_html(url)
   
-  datalist <- as.data.frame(html_text(html_nodes(webpage, 'td')))
+  datalist <- as.data.frame(rvest::html_text(rvest::html_nodes(webpage, 'td')))
   
   teams.df <- as.data.frame(datalist[-1,])
   

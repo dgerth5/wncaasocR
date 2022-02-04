@@ -9,7 +9,7 @@
 Scrapes data from http://wosoindependent.com/college/2021/.
 }
 \author{
-\strong{Maintainer}: David Gerth
+\strong{Maintainer}: David Gerth \email{davidgerth5@gmail.com}
 
 }
 \keyword{internal}
