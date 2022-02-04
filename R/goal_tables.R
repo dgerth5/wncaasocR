@@ -1,8 +1,8 @@
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param year PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @title goal_table
+#' @description returns dataframe of goals scored and allowed in a given season for each school
+#' @param year season
+#' @return dataframe
+#' @details requires rvest
 #' @examples 
 #' \dontrun{
 #' if(interactive()){
