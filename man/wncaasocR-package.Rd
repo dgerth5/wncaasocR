@@ -4,12 +4,12 @@
 \name{wncaasocR-package}
 \alias{wncaasocR}
 \alias{wncaasocR-package}
-\title{wncaasocR: What the Package Does (One Line, Title Case)}
+\title{wncaasocR: Data for Womens NCAA Soccer}
 \description{
-What the package does (one paragraph).
+Scrapes data from http://wosoindependent.com/college/2021/.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: David Gerth
 
 }
 \keyword{internal}

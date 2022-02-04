@@ -4,7 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     person(given = "David",
            family = "Gerth",
-           role = c("aut", "cre"))
+           role = c("aut", "cre"),
+           email = "davidgerth5@gmail.com")
 Description: Scrapes data from http://wosoindependent.com/college/2021/.
 License: MIT + file LICENSE
 Encoding: UTF-8
